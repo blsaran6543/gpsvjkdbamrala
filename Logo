@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPSVJKDBAMRALA - Home</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+    header, nav, main, footer { padding: 20px; }
+    header { background-color: #f4f4f4; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; }
+    .school-photos img { width: 100%; max-width: 600px; margin: 10px auto; display: block; }
+    .staff img { width: 100px; height: auto; margin-right: 10px; vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GPSVJKDBAMRALA</h1>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#facilities">FACILITIES</a>
+      <a href="#staff">STAFF</a>
+      <a href="#students">STUDENT</a>
+      <a href="#contact">CONTACTS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>स्वागत है!</h2>
+      <p>हमारे विद्यालय GPSVJKDBAMRALA में आपका स्वागत है।</p>
+    </section>
+
+    <section class="school-photos">
+      <img src="images/1000293856.webp" alt="School Photo 1" />
+      <img src="images/1000293852.webp" alt="School Photo 2" />
+    </section>
+
+    <section id="facilities">
+      <h2>सुविधाएँ</h2>
+      <ul>
+        <li>कक्षा कक्ष</li>
+        <li>खेल मैदान</li>
+        <li>स्वच्छ पेयजल</li>
+        <li>शौचालय</li>
+        <li>कंप्यूटर लैब</li>
+        <li>पाठ्य सहगामी क्रियाओं के लिए प्रावधान</li>
+        <li>नामांकन के मुताबिक कक्षा कक्ष</li>
+        <li>भौतिक संरचना</li>
+        <li>विकसित खेल मैदान</li>
+        <li>चारदीवारी</li>
+        <li>बालिका-बालकों के लिए अलग-अलग शौचालय</li>
+        <li>इन्टरनेट युक्त कंप्यूटर लैब</li>
+      </ul>
+    </section>
+
+    <section id="staff">
+      <h2>स्टाफ</h2>
+      <div class="staff">
+        <p><img src="images/1000288042.jpg" alt="Balveer Choudhary" />1. Balveer Choudhary (Principal)</p>
+        <p><img src="images/1000288032.jpg" alt="Shushila Choudhary" />2. Shushila Choudhary (Prabhodhak)</p>
+        <p>3. Bhajan Lal (Teacher)</p>
+      </div>
+    </section>
+
+    <section id="students">
+      <h2>छात्र विवरण</h2>
+      <ul>
+        <li>कक्षा 1: 11 छात्र</li>
+        <li>कक्षा 2: 19 छात्र</li>
+        <li>कक्षा 3: 11 छात्र</li>
+        <li>कक्षा 4: 10 छात्र</li>
+        <li>कक्षा 5: 19 छात्र</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>संपर्क करें</h2>
+      <p>मोबाइल: 9649591125</p>
+      <p>ईमेल: bvchoudhary1983@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GPSVJKDBAMRALA. सर्वाधिकार सुरक्षित।</p>
+  </footer>
+</body>
+</html>
