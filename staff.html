@@ -1,20 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Staff</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Staff - GPS VANANI JATO KI DHANI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #003366;
+        }
+        .staff-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .staff-member {
+            background-color: #e6f2ff;
+            padding: 15px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .name {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .role {
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="facilities.html">FACILITIES</a>
-        <a href="staff.html">STAFF</a>
-        <a href="student.html">STUDENT</a>
-        <a href="contact.html">CONTACT</a>
-    </nav>
-    <h1>Staff</h1>
-    <div><p>Staff details will be updated soon.</p></div>
+
+    <h1>हमारे विद्यालय के स्टाफ</h1>
+    <div class="staff-container">
+        <div class="staff-member">
+            <div class="name">बलवीर चौधरी</div>
+            <div class="role">प्रधानाध्यापक (Principal)</div>
+        </div>
+        <div class="staff-member">
+            <div class="name">सुशीला चौधरी</div>
+            <div class="role">प्रभोधक (Prabhodhak)</div>
+        </div>
+        <div class="staff-member">
+            <div class="name">भजनलाल</div>
+            <div class="role">अध्यापक (Teacher)</div>
+        </div>
+    </div>
+
 </body>
 </html>
